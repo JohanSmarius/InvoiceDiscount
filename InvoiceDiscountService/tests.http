@@ -1,0 +1,9 @@
+### Test CalculateDiscount Function
+
+# Request to calculate discount for an invoice with amount 150
+GET http://localhost:7026/api/InvoiceDiscountService/1
+
+###
+
+# Request to calculate discount for an invoice with amount 1200
+GET http://localhost:7026/api/InvoiceDiscountService/2
